@@ -119,7 +119,7 @@ return;
           <span style={{ fontSize: 35, color: gold }}>♞</span>
           <span>
             <strong style={{ display: "block", letterSpacing: 2 }}>
-              CHESS MATE
+              CHESS VICTOR
             </strong>
             <small style={{ color: muted, letterSpacing: 3 }}>
               PLAY SMART

@@ -344,7 +344,7 @@ async function handleAvatarUpload(
             <span style={{ color: gold, fontSize: 32 }}>♞</span>
             <span>
               <strong style={{ display: "block", letterSpacing: 2 }}>
-                CHESS MATE
+                CHESS VICTOR
               </strong>
               <small
                 style={{
@@ -815,7 +815,7 @@ async function handleAvatarUpload(
               }}
             >
               Statistics will update as completed matches are recorded in
-              Chess Mate.
+              Chess Victor.
             </p>
           </section>
 
@@ -905,7 +905,7 @@ async function handleAvatarUpload(
             letterSpacing: 1,
           }}
         >
-          CHESS MATE · PLAY SMART · THINK AHEAD
+          CHESS VICTOR · PLAY SMART · THINK AHEAD
         </footer>
       </div>
     </main>

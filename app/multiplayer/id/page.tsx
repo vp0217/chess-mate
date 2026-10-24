@@ -310,7 +310,7 @@ export default function MultiplayerMatchPage() {
         <div className="match-brand">
           <div className="match-brand-icon"><Swords size={20} /></div>
           <div>
-            <strong>CHESS MATE</strong>
+            <strong>CHESS VICTOR</strong>
             <span>LIVE ARENA</span>
           </div>
         </div>

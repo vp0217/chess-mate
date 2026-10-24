@@ -183,7 +183,7 @@ export default function MultiplayerPage() {
             <Swords size={20} />
           </div>
           <div>
-            <strong>CHESS MATE</strong>
+            <strong>CHESS VICTOR</strong>
             <span>LIVE ARENA</span>
           </div>
         </div>
