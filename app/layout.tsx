@@ -4,12 +4,12 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Chess Mate | Play Smart. Stake. Win.",
+  title: "Chess Victor | Play Smart. Stake. Win.",
   description:
-    "Play chess, challenge friends, compete with virtual coins, join tournaments, and connect with the Chess Mate community.",
-  applicationName: "Chess Mate",
+    "Play chess, challenge friends, compete with virtual coins, join tournaments, and connect with the Chess Victor community.",
+  applicationName: "Chess Victor",
   keywords: [
-    "Chess Mate",
+    "Chess Victor",
     "online chess",
     "chess tournaments",
     "chess community",
