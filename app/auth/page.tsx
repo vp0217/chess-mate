@@ -55,9 +55,9 @@ export default function AuthPage() {
         if (authError) throw authError;
 
         if (data.session) {
-          router.push("/");
-          router.refresh();
-          return;
+          router.replace("/dashboard");
+router.refresh();
+return;
         }
 
         setMessage(
@@ -72,7 +72,7 @@ export default function AuthPage() {
 
         if (authError) throw authError;
 
-        router.push("/");
+        router.replace("/dashboard");
         router.refresh();
         return;
       }
@@ -291,8 +291,8 @@ export default function AuthPage() {
               {loading
                 ? "Please wait..."
                 : mode === "signup"
-                  ? "Create Chess Mate account"
-                  : "Log in to Chess Mate"}
+                  ? "Create Chess Victor account"
+                  : "Log in to Chess Victor"}
             </button>
           </form>
 
@@ -305,7 +305,7 @@ export default function AuthPage() {
               marginTop: 22,
             }}
           >
-            By continuing, you agree to use Chess Mate respectfully and fairly.
+            By continuing, you agree to use Chess Victor respectfully and fairly.
           </p>
         </div>
 
